@@ -326,8 +326,25 @@ main {
 }
 
 .avatar-box {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+ 
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  position: relative;
+  z-index: 9;
+}
+.image-overlay {
+  position: absolute;
+  height: 10%;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  background-color: aqua;
+  z-index: 10;
+  bottom: 5%;
+
 }
 
 .info-content .name {
