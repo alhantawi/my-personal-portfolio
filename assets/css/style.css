@@ -199,6 +199,9 @@ article {
   border-radius: inherit;
   z-index: -1;
 }
+.title {
+width: 2px;
+}
 
 .icon-box ion-icon { --ionicon-stroke-width: 35px; }
 
